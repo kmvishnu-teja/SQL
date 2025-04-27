@@ -1,0 +1,42 @@
+# COVID-19 Data Exploration with SQL
+
+This repository contains SQL queries used to analyze COVID-19 data. The analysis explores various aspects of the pandemic, including infection rates, death rates, and vaccination trends.
+
+## Project Description
+
+This SQL project involves querying and analyzing a COVID-19 dataset to gain insights into the spread and impact of the virus. The queries perform calculations, aggregations, and joins to extract meaningful information from the data.  The results of some queries are designed to be suitable for visualization in tools like Tableau.
+
+## Datasets
+
+The project utilizes two datasets:
+
+* `Covid Deaths`: Contains data related to COVID-19 cases and deaths.
+* `CovidVaccinations`: Contains data related to COVID-19 vaccinations.
+
+Both datasets are assumed to be accessible within a SQL Server environment (as indicated by the `Project_portfolio_covid..` schema).
+
+* **Tableau-Ready Queries:**
+    * Includes queries optimized for use in Tableau visualizations:
+        * Total death count by continent.
+        * Overall death percentage.
+        * Highest infection count and percentage of population infected.
+        * Population infected over time.
+
+## Key Skills Demonstrated
+
+* SQL querying
+* Data aggregation
+* Joining tables
+* Using CTEs (Common Table Expressions)
+* Window functions (`RANK()`)
+* Data analysis
+* Data preparation for visualization
+
+## Setup
+
+To run these queries:
+
+1.  Ensure you have access to a SQL Server instance.
+2.  Create a database named `Project_portfolio_covid` (or modify the script to match your database name).
+3.  Import the `Covid Deaths` and `CovidVaccinations` datasets into the database.  (Note:  The script assumes these tables are already populated.)
+4.  Execute the `COVID.sql` script.
