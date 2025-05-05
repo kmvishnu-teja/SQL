@@ -1,0 +1,25 @@
+# 🧹 SQL Data Cleaning & Mining – Pizza Sales Project
+
+This repository contains all the **SQL scripts** used to clean and mine the raw pizza sales data for the Power BI dashboard project.
+
+---
+
+## 📌 Project Summary
+
+- **Project Name:** Pizza Sales Dashboard
+- **Data Source:** Sample dataset by Swapnjeet ([Google Drive Link](https://drive.google.com/drive/folders/17U0ah6Q4MJM_wIn_Xl4fHc-1fO6Q4s6z))
+- **Tools Used:**  
+  - **SQL (MySQL/SQL Server compatible)** – Data cleaning, transformations, mining  
+  - **MS Excel** – Supplementary data prep and formatting  
+
+---
+
+## 🧰 SQL Workflow Includes
+
+- 🧹 Removing nulls and irrelevant rows
+- 🔄 Standardizing text formats (e.g., size, category names)
+- 🗃️ Splitting composite fields (like `pizza_type`)
+- 📊 Aggregating data for metrics like:
+  - Total revenue
+  - Sales by size, category, date
+  - Order volumes and item-level trends
